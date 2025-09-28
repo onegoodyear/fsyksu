@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           {/* 2030 Vision Logo - Left Side */}
           <div className="flex items-center">
-            <div className="bg-white bg-opacity-20 p-2 rounded-lg backdrop-blur-sm">
+            <div className="p-2 rounded-lg backdrop-blur-sm">
               <img
                 src="/2030vision.svg"
                 alt="رؤية 2030"
@@ -69,7 +69,7 @@ const Navbar = () => {
                 onClick={closeMenu}
                 className="flex items-center"
               >
-                <div className="bg-white p-2 rounded-lg shadow-lg">
+                <div className="p-2 rounded-lg shadow-lg">
                   <img
                     src="/ksulogo.png"
                     alt="جامعة الملك سعود"
